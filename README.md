@@ -33,4 +33,4 @@ When you are inside the code directiory, run the server with the command
 
 	python web.py
 
-If successful, a simple web server is now running on your computer at [http://localhost:5000]
+If successful, a simple web server is now running on your computer at [http://localhost:5000](http://localhost:5000)

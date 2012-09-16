@@ -25,12 +25,12 @@ This will download Flask and all of its requirements (Werkzeug & Jinja2)
 
 Download the code. To keep your code organized it helps to put example files in their own directory, creating a directory in ~/Documents called 'itp-dwd-examples' is helpful.
 
-Navigate to the directory via Terminal
+Navigate to the directory via Terminal, for example
 
 	cd ~/Documents/itp-dwd-examples
 
-Run the server with the command
+When you are inside the code directiory, run the server with the command
 
 	python web.py
 
-If successful, a simple web server is now running on your computer at (http://localhost:5000)
+If successful, a simple web server is now running on your computer at [http://localhost:5000]

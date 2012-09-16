@@ -1,5 +1,5 @@
 ## A simple webserver in Python 
-Simple example of a web server using Python's Flask web framework. 
+Simple example of a web server using Python's [Flask web framework](http://flask.pocoo.org/). 
 
 ------
 
@@ -38,11 +38,7 @@ When you are inside the code directiory, run the server with the command
 
 	python web.py
 
-If successful, a simple web server is now running on your computer at [http://localhost:5000](http://localhost:5000)
-
-### Stopping the server
-
-You can stop the server by pressing the CTRL+C keys inside the Terminal.
+If successful, a simple web server is now running on your computer. Open your browser and visit [http://localhost:5000](http://localhost:5000)
 
 Two pages are available
 * [/](http://localhost:5000) - the main page
@@ -61,3 +57,10 @@ Run the server with the command
 
 	python web_w_form.py
 
+If successful, a simple web server is now running on your computer. Open your browser and visit [http://localhost:5000](http://localhost:5000)
+
+------
+
+### Stopping the server
+
+You can stop the server by pressing the CTRL+C keys inside the Terminal.

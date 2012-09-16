@@ -19,7 +19,11 @@ To install Flask run the following command in your Terminal console.
 
 This will download Flask and all of its requirements (Werkzeug & Jinja2)
 
-For this example you only need to install Flask once. It will then be available for all future Python scripts that import it. **HOWEVER, future web servers in the ITP DWD class will be running with Virtualenv, to encapsulate all required modules/libraries.**
+For this example you only need to install Flask once. It will then be available for all future Python scripts that import it. 
+
+**HOWEVER, future web servers in the ITP DWD class will be running with Virtualenv, to encapsulate all required modules/libraries.**
+
+
 ------
 
 ### Running the basic server

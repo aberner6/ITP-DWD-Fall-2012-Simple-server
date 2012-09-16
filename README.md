@@ -33,4 +33,4 @@ Run the server with the command
 
 	python web.py
 
-	
+If successful, a simple web server is now running on your computer at (http://localhost:5000)

@@ -44,6 +44,11 @@ Two pages are available
 * [/](http://localhost:5000) - the main page
 * [/page2](http://localhost:5000/page2)- a second example page
 
+------
+
+### Stopping the server
+
+You can stop the server by pressing the CTRL+C keys inside the Terminal.
 
 ------
 
@@ -59,8 +64,4 @@ Run the server with the command
 
 If successful, a simple web server is now running on your computer. Open your browser and visit [http://localhost:5000](http://localhost:5000)
 
-------
 
-### Stopping the server
-
-You can stop the server by pressing the CTRL+C keys inside the Terminal.

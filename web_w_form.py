@@ -7,20 +7,19 @@ from flask import Flask, request
 # create the Flask app
 app = Flask(__name__)
 
-# this is our main page
+# Main Page Route
 @app.route("/")
 def index():
-    return """<html><body>
-    Hello World!
-    <br/><br/>
-    <a href='/page2'>Visit page #2</a>
-   	</body></html>"""
+    return "Hello World!<br/><br/><a href='/page2'>Visit page #2</a>"
 
 
-# this is the 2nd route - can be access with /page2
+# Second Page Route
 @app.route("/page2")
 def page2():
-	return "<html><body><h2>Welcome to page 2</h2><p>This is just amazing!</p></body></html>"
+	return """<html><body>
+	<h2>Welcome to page 2</h2>
+	<p>This is just amazing!</p>
+	</body></html>"""
 
 
 # new route will accept both a GET and POST request from the client (ie browser)

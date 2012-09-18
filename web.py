@@ -2,7 +2,7 @@
 import os
 
 # Retrieve Flask, our framework
-from flask import Flask, request
+from flask import Flask
 
 # create the Flask app
 app = Flask(__name__)

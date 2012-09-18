@@ -149,15 +149,3 @@ If successful, a simple web server is now running on your computer. Open your br
 				</body></html>"""
 
 
---------------
-
-## Getting a simple server running on Heroku
-
-
-ToDo:
-* Sign up for Heroku
-* Download and install Heroku Toolbelt
-* Set up local code environment with GIT and Virtualenv
-* Run web server locally
-* Commit code to GIT
-* Push to Heroku

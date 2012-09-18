@@ -36,7 +36,7 @@ def simpleform():
 		user_name = request.form.get('user_name', 'Tim Berners-Lee')
 
 		# return custom HTML using the user submitted data
-		return "<html><body><h2>HELLO %s! What an interesting name.</h2><br><a href='/form'>back to form</a></body><html>" % user_name
+		return "<html><body><h3>Hello %s! What an interesting name.</h3><br><a href='/form'>back to form</a></body><html>" % user_name
 
 	else:
 

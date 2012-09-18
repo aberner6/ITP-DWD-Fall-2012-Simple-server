@@ -3,15 +3,21 @@ Simple example of a web server using Python's [Flask web framework](http://flask
 
 ------
 
+### Reference Links
+
+* Flask - micro web framework [http://flask.pocoo.org/](http://flask.pocoo.org/)
+* Heroku registration - [https://api.heroku.com/signup](https://api.heroku.com/signup)
+* Heroku Toolbelt (download) - [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
+
 ### Requirements
 
-Tested on Python 2.7.x
-You should have [Python](http://www.python.org/download/), Python [Setuptools](http://pypi.python.org/pypi/setuptools#downloads) and PIP installed (run cmd "easy_install pip").
+* Tested on Python 2.7.x
+* You should have [Python](http://www.python.org/download/), Python [Setuptools](http://pypi.python.org/pypi/setuptools#downloads) and PIP installed (run cmd "easy_install pip").
 
 
 ### Setup before initially running server
 
-Before you run the server you must install the Flask module. Flask is the Python framework used in this example web server.
+Before you run the simple server example below you must install the Flask module. Flask is the Python framework used in this example web server.
 
 To install Flask run the following command in your Terminal console.
 
@@ -27,6 +33,8 @@ For this example you only need to install Flask once. It will then be available 
 ------
 
 ### Running the basic server
+
+#### Download [code for web.py](https://github.com/johnschimmel/ITP-DWD-Fall-2012-Simple-server/blob/master/web.py)
 
 Download the code. To keep your code organized it helps to put example files in their own directory, creating a directory in ~/Documents called 'itp-dwd-examples' is helpful.
 
@@ -96,6 +104,8 @@ You can stop the server by pressing the CTRL+C keys inside the Terminal.
 
 ### Running the second web server example
 
+#### Download [code for web_w_form.py](https://github.com/johnschimmel/ITP-DWD-Fall-2012-Simple-server/blob/master/web_w_form.py)
+
 The second web server example has a third page that demonstrates a simple web form. When the server receives a 'GET' request to '/form' it responds with a form. If the user fills in the form and submits the server receives a 'POST' request with the form data. The server responds with a custom made HTML string using the user form data.
 
 * /form - to display a simple web form and a receive form submission.
@@ -137,3 +147,17 @@ If successful, a simple web server is now running on your computer. Open your br
 					<input type="submit" value="submit it"/>
 				</form>
 				</body></html>"""
+
+
+--------------
+
+## Getting a simple server running on Heroku
+
+
+ToDo:
+* Sign up for Heroku
+* Download and install Heroku Toolbelt
+* Set up local code environment with GIT and Virtualenv
+* Run web server locally
+* Commit code to GIT
+* Push to Heroku
